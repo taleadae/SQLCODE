@@ -1,0 +1,28 @@
+CREATE TABLE 
+    Hermits (id INTEGER PRIMARY KEY, HermitName TEXT, Country TEXT, Subscribers INTEGER);
+INSERT INTO Hermits VALUES (1,'BDoubleO100','USA',1870000);
+INSERT INTO Hermits VALUES (2,'cubfan135','USA', 823000);
+INSERT INTO Hermits VALUES (3,'docm77', 'Germany', 1010000);
+INSERT INTO Hermits VALUES (4,'EthosLab', 'Canada', 2440000);
+INSERT INTO Hermits VALUES (5,'faslesymmetry', 'UK', 453000);
+INSERT INTO Hermits VALUES (6,'GeminiTay', 'Canada', 1580000);
+INSERT INTO Hermits VALUES (7, 'GoodTimesWithScar', 'USA', 2010000);
+INSERT INTO Hermits VALUES (8, 'Grian', 'UK', 8160000);
+INSERT INTO Hermits VALUES (9, 'hypnotizd', 'USA', 389000);
+INSERT INTO Hermits VALUES (10, 'iJevin', 'USA', 804000);
+INSERT INTO Hermits VALUES (11, 'impulseSV', 'USA', 1200000);
+INSERT INTO Hermits VALUES (12, 'Iskall85', 'USA', 1630000);
+INSERT INTO Hermits VALUES (13, 'Joe Hills','USA', 159000);
+INSERT INTO Hermits VALUES (14, 'Keralis', 'Sweden', 2360000);
+INSERT INTO Hermits VALUES (15, 'Mumbo Jumbo', 'UK', 8780000);
+INSERT INTO Hermits VALUES (16, 'PearlescentMoon','Australia', 672000);
+INSERT INTO Hermits VALUES (17, 'ReNDoG', 'UK', 684000);
+INSERT INTO Hermits VALUES (18, 'stressmonster101', 'UK', 337000);
+INSERT INTO Hermits VALUES (19, 'Tango Tek', 'USA', 1100000);
+INSERT INTO Hermits VALUES (20, 'TinFoil Chef', 'USA', 124000);
+INSERT INTO Hermits VALUES (21, 'Vintage Beef', 'Canada', 1560000);
+INSERT INTO Hermits VALUES (22, 'Welsknight', 'USA', 544000);
+INSERT INTO Hermits VALUES (23, 'xBCrafted', 'USA', 380000);
+INSERT INTO Hermits VALUES (24, 'Xisumavoid', 'UK', 1840000);
+INSERT INTO Hermits VALUES (25, 'Zedaph', 'UK', 306000);
+INSERT INTO Hermits VALUES (26, 'ZombieCleo', 'UK', 320000);
