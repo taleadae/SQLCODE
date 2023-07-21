@@ -11,4 +11,3 @@ INSERT INTO FavBooks VALUES (5, 'The Wind Through the Keyhole', 4);
 INSERT INTO FavBooks VALUES (6, 'The Wolves of Calla', 4);
 INSERT INTO FavBooks VALUES (7, 'The Song of Susannah', 5);
 INSERT INTO FavBooks VALUES (8, 'The Dark Tower', 5);
-SELECT * FROM FavBooks;
