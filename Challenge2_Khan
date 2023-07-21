@@ -1,4 +1,5 @@
--- This database contains an incomplete list of box office hits and their release year.--
+-- Challenge 2
+This database contains an incomplete list of box office hits and their release year.--
 
 CREATE TABLE movies (id INTEGER PRIMARY KEY, name TEXT, release_year INTEGER);
 INSERT INTO movies VALUES (1, "Avatar", 2009);
