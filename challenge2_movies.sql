@@ -1,5 +1,5 @@
--- Challenge 2
-This database contains an incomplete list of box office hits and their release year.--
+-- Challenge 2 --
+-- This database contains an incomplete list of box office hits and their release year.--
 
 CREATE TABLE movies (id INTEGER PRIMARY KEY, name TEXT, release_year INTEGER);
 INSERT INTO movies VALUES (1, "Avatar", 2009);
@@ -13,8 +13,8 @@ INSERT INTO movies VALUES (6, "Disney's Up", 2009);
  
 SELECT * FROM movies;
 
---Now, add a second query after the first, that retrieves only the movies that were released in the year 2000 or later, not before. 
-Sort the results so that the earlier movies are listed first. --
+--Now, add a second query after the first, that retrieves only the movies that were released in the year 2000 or later, not before. --
+-- Sort the results so that the earlier movies are listed first. --
 
 SELECT * FROM movies
 WHERE release_year >2000 ORDER BY release_year; 
