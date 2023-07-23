@@ -1,5 +1,5 @@
 --Challenge 3
-Here's a table containing a TODO list with the number of minutes it will take to complete each item. -- 
+-- Here's a table containing a TODO list with the number of minutes it will take to complete each item. -- 
 
 CREATE TABLE todo_list (id INTEGER PRIMARY KEY, item TEXT, minutes INTEGER);
 INSERT INTO todo_list VALUES (1, "Wash the dishes", 15);
