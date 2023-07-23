@@ -1,4 +1,4 @@
---Challenge 3
+-- Challenge 3 -- 
 -- Here's a table containing a TODO list with the number of minutes it will take to complete each item. -- 
 
 CREATE TABLE todo_list (id INTEGER PRIMARY KEY, item TEXT, minutes INTEGER);
