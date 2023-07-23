@@ -3,7 +3,7 @@
 
 CREATE TABLE SeussStore (id INTEGER PRIMARY KEY AUTOINCREMENT, name TEXT, price INTEGER, quantity INTEGER, Stocked TEXT);
 
-INSERT INTO SeussStore (name, price, quantity, stocked) VALUES ('One Fish', 4.25, 10, 'Y');
+INSERT INTO SeussStore (name, price, quantity, stocked) VALUES('One Fish', 4.25, 10, 'Y');
 INSERT INTO SeussStore (name, price, quantity, stocked) VALUES('Two Fish', 4.25, 10, 'Y');
 INSERT INTO SeussStore (name, price, quantity, stocked) VALUES('Red Fish', 4.25, 0, 'N');
 INSERT INTO SeussStore (name, price, quantity, stocked) VALUES('Blue Fish', 4.25, 10, 'Y');
