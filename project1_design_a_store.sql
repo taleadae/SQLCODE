@@ -44,3 +44,6 @@ WHERE stocked = 'N';
 SELECT * FROM SeussStore
 WHERE stocked = 'N' AND price < 5 ;
 
+SELECT * FROM SeussStore
+ORDER BY name DESC;
+
