@@ -47,3 +47,15 @@ WHERE stocked = 'N' AND price < 5 ;
 SELECT * FROM SeussStore
 ORDER BY name DESC;
 
+SELECT COUNT (Price)
+FROM SeussStore
+WHERE Price = 4.25;
+
+SELECT COUNT (Quantity)
+FROM SeussStore
+WHERE Quantity =0;
+
+SELECT * FROM SeussStore
+WHERE name LIKE 'b%';
+
+
